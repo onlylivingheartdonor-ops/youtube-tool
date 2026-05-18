@@ -52,9 +52,11 @@ export const metadata = {
     maximumScale: 5,
   },
 
-  authors: [{David Graham: "MoneyWise Calculators" }],
-  creator: "MoneyWise Calculators",
-  publisher: "MoneyWise Calculators",
+
+authors: [{ name: "David Graham" }],
+creator: "MoneyWise Calculators",
+publisher: "MoneyWise Calculators",
+
 };
 
 export default function RootLayout({ children }) {
